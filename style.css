@@ -118,3 +118,7 @@ p {
   border-radius: 8px;
   float: left;
 }
+
+.content-image {
+  height: 300px;
+}
