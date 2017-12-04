@@ -10,31 +10,17 @@ body {
   padding: 0;
 }
 
-.header {
+header {
   background-color: #7b107b;
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.25);
   margin: 0 0 20px 0;
   padding: 1em 0 1em 0;
 }
 
-.header img {
+header img {
   display: block;
   height: 125px;
   margin: auto;
-}
-
-h1 {
-  color: white;
-  display: block;
-  font-size: 4em;
-  padding: 1em;
-  text-align: center;
-}
-
-h2 {
-  font-size: 1em;
-  margin: auto auto auto 20em;
-  text-align: center;
 }
 
 h3 {
@@ -61,43 +47,35 @@ p {
   width: 80%;
 }
 
-.mainproject {
-  background-color: white;
-  border-radius: 0.5em;
-  box-shadow: 0 0 1em rgba(0, 0, 0, 0.25);
-  margin-bottom: 1em;
-  padding: 1em;
+.contentbox {
+    background-color: white;
+    border-radius: 0.25em;
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.25);
+    background-position: center bottom;
+    background-size: cover;
+    float: left;
+    margin: 0 0.25em 1em 0.25em;
+    padding: 1em;
 }
 
-.mainprojectcontent {
-  height: 375px;
-}
-
-.mainproject .mainprojectcontent img {
-  border-radius: 0.25em;
+.contentbox .contentimage {
   float: left;
-}
-
-.subdiv {
-  background-color: white;
-  background-position: center bottom;
-  background-size: cover;
-  border-radius: 0.25em;
-  box-shadow: 0 0 1em rgba(0, 0, 0, 0.25);
-  float: left;
-  height: 20em;
-  margin: 0 0.25em 1em 0;
-  overflow: hidden;
-  width: 32%;
-}
-
-.subdiv img {
   border-radius: 4px;
-  height: 180px;
   margin: 5px;
   min-width: 276px;
 }
 
-.content-image {
-  height: 300px;
+.main .contentimage {
+  height: 375px;
+}
+
+.small {
+  height: 20em;
+  overflow: hidden;
+  padding: 0.25em;
+  width: 32%;
+}
+
+.small .contentimage {
+  height: 200px;
 }
