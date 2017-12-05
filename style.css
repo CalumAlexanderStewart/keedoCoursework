@@ -60,6 +60,7 @@ h4 {
   width: 325px;
   height: 323px;
   overflow: scroll;
+  overflow-x: hidden;
   float: left;
   margin-left: 10px;
   margin-bottom: 10px;
