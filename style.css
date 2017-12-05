@@ -152,6 +152,7 @@ a{
 .subdivtext {
   height: 120px;
   overflow: scroll;
+  overflow-x: hidden;
 }
 .subdiv:hover .image {
   opacity: 0.3;
