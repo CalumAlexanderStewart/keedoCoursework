@@ -39,6 +39,18 @@ height: 900px;
   margin-left: 10px;
 }
 .donate {
-  width: 480px;
+  float: right;
+  width: auto;
   display: inline;
+  margin: 10px;
+}
+.donate form{
+  float:left;
+}
+input {
+  width: 50px;
+}
+.donate button {
+  float: left;
+  height: 28px;
 }
